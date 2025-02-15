@@ -2,7 +2,7 @@ const img = document.getElementById("image");
 const updatePic = document.getElementById("updatePic");
 const searchBar = document.getElementById("searchBar");
 const submit = document.getElementById("submit");
-let api_key = "aguNoaEie6ABaTq3lJhjpHOuugLTXvoe";
+let api_key = "";
 let blankUrl = 'https://api.giphy.com/v1/gifs/translate?api_key='
 let baseUrl = blankUrl + api_key + "&s=";
 
